@@ -1,0 +1,93 @@
+.WheatherBox {
+  background-color: #f0e9d2;
+  margin: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #678983;
+  max-width: 800px;
+  font-family: "Lato", sans-serif;
+}
+.Title {
+  text-align: center;
+  padding: 20px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+}
+
+.GitHubLink {
+  color: #678983;
+  text-decoration: none;
+}
+.GitHubLink:hover {
+  color: #678983;
+}
+
+.CityForms {
+  padding: 20px;
+  text-align: center;
+}
+.EnterCity {
+  padding: 10px 50px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 10px;
+  text-align: left;
+}
+.Search {
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(230, 221, 196);
+  box-shadow: 0px 0px 7px 0px rgba(66, 68, 90, 0.32);
+  display: inline;
+}
+
+.TodayWeather {
+  margin-bottom: 50px;
+}
+.Info {
+  padding: 10px;
+  position: relative;
+  left: 40px;
+}
+.City {
+  font-size: 32px;
+}
+.CityName {
+  text-transform: capitalize;
+}
+.Daytime {
+  font-size: 20px;
+}
+
+.Wind {
+  font-size: 14px;
+}
+
+.TempBox {
+  text-align: center;
+  display: block;
+}
+.Temperature {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 400;
+}
+.WeatherDetails {
+  position: relative;
+  bottom: -40px;
+}
+
+.icon {
+  position: relative;
+  left: -25px;
+  margin: 0px 5px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f0e9d2;
+}
