@@ -45,7 +45,7 @@ export default function Weather() {
       <footer>
         <a
           className="GitHubLink"
-          href="https://github.com/JadziaRydzyk/weather-app"
+          href="https://github.com/JadziaRydzyk/react-weather-app"
           target="_blank "
         >
           Look at my GitHub repository
