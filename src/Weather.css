@@ -47,6 +47,9 @@
 .TodayWeather {
   margin-bottom: 50px;
 }
+.Overview {
+  text-align: left;
+}
 .Info {
   padding: 10px;
   position: relative;
