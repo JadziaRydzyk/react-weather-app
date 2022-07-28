@@ -38,7 +38,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div className="WheatherBox">
+      <div className="WheatherBox ">
         <h1 className="Title">sunny or rainy</h1>
         <div className="CityForms">
           <form onSubmit={handleSubmit}>
