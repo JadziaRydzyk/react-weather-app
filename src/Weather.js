@@ -18,6 +18,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
+      coordinates: response.data.coord,
     });
   }
 
@@ -51,7 +52,7 @@ export default function Weather(props) {
             <input type="submit" value="search" className="Search" />
           </form>
           <WeatherInfo data={weatherData} />
-          <WeatherForecast />
+          <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
       </div>
     );
